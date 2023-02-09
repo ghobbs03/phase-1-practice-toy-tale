@@ -103,6 +103,7 @@ function updateLikes(obj, newLikeCount) {
   }).then(resp => resp.json())
     .then((newObj) => {
       console.log(newObj.likes)
+      //obj.likes += 1
 
     })
 }
